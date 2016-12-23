@@ -1,19 +1,77 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
-[Oo]bj/ # FlashDevelop obj
-[Bb]in/ # FlashDevelop bin
+# Node modules configuration file
+# ----------------------------------------------------------------------
+node_modules
 
-# Other files and folders
-.settings/
+# dploy configuration file
+# ----------------------------------------------------------------------
+dploy.yaml
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# For SublimeText
+# ----------------------------------------------------------------------
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+# *.sublime-project
+
+# sftp configuration file
+sftp-config.json
+
+# Package control specific files
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.cache/
+Package Control.ca-certs/
+bh_unicode_properties.cache
+
+# Sublime-github package stores a github token in this file
+# https://packagecontrol.io/packages/sublime-github
+GitHub.sublime-settings
+
+# Craft runtime and backups folders
+# ----------------------------------------------------------------------
+build/craft/app/*
+build/craft/storage/runtime/*
+build/craft/storage/backups/*
+build/craft/config/*
+
+build/craft/db.php
+build/craft/general.php
+build/craft/license.key
+
+# craft database and config files
+db.php
+general.php
+license.key
+
+# Uploaded files
+# ----------------------------------------------------------------------
+public/assets/uploads/*
+
+# Misc files
+# ----------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-workspace
+*.sublime-project
+*.komodoproject
+.komodotools
+_notes
+dwsync.xml
+logs/*
+
+

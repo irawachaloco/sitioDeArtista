@@ -1,0 +1,25 @@
+{
+  "name": "sitio_de_artista",
+  "version": "1.0.0",
+  "description": "boilerplate para sitio de artista",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run stylus:watch",
+    "stylus:once": "stylus ./build/public/assets/styles/styles.styl --out ./build/assets/public/styles/styles.css",
+    "stylus:watch": "stylus --watch ./build/public/assets/styles/styles.styl --out ./build/public/assets/styles/styles.css",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irawachaloco/sitioDeArtista.git"
+  },
+  "author": "omar ponce",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/irawachaloco/sitioDeArtista/issues"
+  },
+  "homepage": "https://github.com/irawachaloco/sitioDeArtista#readme",
+  "dependencies": {
+    "stylus": "^0.54.5"
+  }
+}
